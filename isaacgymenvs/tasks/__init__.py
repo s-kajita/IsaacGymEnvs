@@ -26,6 +26,9 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# self Envs
+from .khr3 import Khr3
+
 from .ant import Ant
 from .anymal import Anymal
 from .anymal_terrain import AnymalTerrain
@@ -108,6 +111,7 @@ isaacgym_task_map = {
     "Humanoid": Humanoid,
     "HumanoidAMP": HumanoidAMP,
     "Ingenuity": Ingenuity,
+    "Khr3": Khr3,
     "Quadcopter": Quadcopter,
     "ShadowHand": ShadowHand,
     "Trifinger": Trifinger,
